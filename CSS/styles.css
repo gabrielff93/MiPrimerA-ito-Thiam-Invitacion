@@ -1,0 +1,128 @@
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    text-align: center;
+}
+
+.meses {
+    margin-bottom: 20px;
+}
+
+.slider-frame {
+    width: 720px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0 ;
+    width: 1000%;
+    animation: slide 22s infinite  ease-in-out;
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 110%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    5%{margin-left:0% ;}
+
+    10% {margin-left: -100%;}
+    15%{margin-left:  -100%;}
+
+    20% {margin-left: -200%;}
+    25%{margin-left:  -200%;}
+
+    30% {margin-left: -300%;}
+    35%{margin-left:  -300%;}
+
+    40% {margin-left: -400%;}
+    45%{margin-left:  -400%;}
+
+    50% {margin-left: -500%;}
+    55%{margin-left:  -500%;}
+
+    60% {margin-left: -600%;}
+    65%{margin-left:  -600% ;}
+
+    70% {margin-left: -700%;}
+    75%{margin-left:  -700% ;}
+
+    80% {margin-left: -800%;}
+    85%{margin-left:  -800% ;}
+
+    90% {margin-left: -900%;}
+    95%{margin-left:  -900% ;}
+
+    100% {margin-left:-1000%;}
+}
+
+.titulo__contador {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: coral;
+
+}
+.cuenta__regresiva {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.frase {
+    margin-bottom: 10px;
+}
+.frase2 {
+    margin-bottom: 20px;
+}
+.frase3 {
+    margin-top: 40px;
+}
+
+.frase_contenedor {
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: "Comic Neue", cursive;
+}
+.frase4 {
+    margin-bottom: 40px;
+}
+
+.cuenta__regresiva {
+    font-family: "Concert One", sans-serif;
+}
+
+  h2 {
+    color: coral;
+    font-size:30px;
+}
+footer {
+    text-align: left;
+    font-size: 20pxpx;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+.mb-4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.click__aca {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+}

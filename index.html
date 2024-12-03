@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion Thiam</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <!-- Letra Contador-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <!-- Letra Frases -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Concert+One&family=Permanent+Marker&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header class="header_img">
+            <img class="img_principal" src="./IMG/Mickey3-logo.jpg" alt="principal">
+        </header> 
+        <br><br><br>
+
+        <div class="slider">
+            <h2 class="meses">TODOS MIS MESES</h2>
+            <div class="slider-frame">
+                <ul>
+                    <li><img src="./IMG/1mes.jpg" alt=""></li>
+                    <li><img src="./IMG/2mes.jpg" alt=""></li>
+                    <li><img src="./IMG/3mes.jpg" alt=""></li>
+                    <li><img src="./IMG/4mes.jpg" alt=""></li>
+                    <li><img src="./IMG/5mes.jpg" alt=""></li>
+                    <li><img src="./IMG/6mes.jpg" alt=""></li>
+                    <li><img src="./IMG/7mes.jpg" alt=""></li>
+                    <li><img src="./IMG/8mes.jpg" alt=""></li>
+                    <li><img src="./IMG/9mes.jpg" alt=""></li>
+                    <li><img src="./IMG/10mes.jpg"alt=""></li>
+                </ul>
+            </div>
+
+            <!-- <h2 class="titulo__contador">Faltan</h2>
+
+        <div class="cuenta__regresiva">
+        <p>
+          <span id="days"></span> días / <span id="hours"></span> horas / <span id="minutes"></span> minutos / <span id="seconds"></span> segundos
+      </p>
+    </div> -->
+
+         <div class="frase_contenedor">   
+            <p class="frase">
+                Despues de tantos preparativos retratando todos los meses de mi vida,
+                llegó el dia de sacar la foto mas importante de todas. <br><br>
+                             LA FOTO DE MI PRIMER CUMPLE! </p> <br><br>
+                             <h2 class="titulo__contador">Faltan</h2>
+
+                             <div class="cuenta__regresiva">
+                             <p>
+                               <span id="days"></span> días / <span id="hours"></span> horas / <span id="minutes"></span> minutos / <span id="seconds"></span> segundos
+                           </p>
+                         </div>                 
+
+            <p class="frase4">                
+                Con mis papis deseamos que estes presente en esa foto y dia tan especial. <br>
+                El dia 22 de enero de 12 a 17hs.            
+            </p>
+            <p class="frase2">
+                Los esperamos en Humahuaca 540, entre Novak y Cafferata <br>
+                Frente a la cancha de "Defensa y justicia" <br><br>                
+            </p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.6821083949915!2d-58.28637144061832!3d-34.82193406405148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32bd17a3c4b29%3A0x506569e9b8ee3483!2sAv.%20Humahuaca%20540%2C%20B1859%20Santa%20Rosa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1732809689040!5m2!1ses-419!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p class="frase3">
+                No te olvides de traer protector solar y traje de baño para poder
+                disfrutar de la pile juntos.. <br>
+                <br>
+                Te Esperamos! 
+            </p>
+
+
+        </div>   
+
+        <section class="mb-4">
+            <h2 class="titulo_asistencia">CONFIRMAR ASISTENCIA</h2>
+            <p class="click__aca">Haciendo Click en el Icono</p>
+            <a class="boton_wp" href="https://api.whatsapp.com/send/?phone=%2B5491140392505&text=%C2%A1Confirmo+Asistencia%21&type=phone_number&app_absent=0" target="_blank"><img src="./IMG/iconowsp.png" alt="wsp"></a>
+      
+           
+          </section>
+
+        <footer>
+            GF Desarrollador Web
+        </footer>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => { 
+  
+          //===
+          // VARIABLES
+          //===
+          const DATE_TARGET = new Date('01/22/2025 9:00 PM');
+          // DOM for render
+          const SPAN_DAYS = document.querySelector('span#days');
+          const SPAN_HOURS = document.querySelector('span#hours');
+          const SPAN_MINUTES = document.querySelector('span#minutes');
+          const SPAN_SECONDS = document.querySelector('span#seconds');
+          // Milliseconds for the calculations
+          const MILLISECONDS_OF_A_SECOND = 1000;
+          const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
+          const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
+          const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
+  
+          //===
+          // FUNCTIONS
+          //===
+  
+          /**
+          * Method that updates the countdown and the sample
+          */
+          function updateCountdown() {
+              // Calcs
+              const NOW = new Date()
+              const DURATION = DATE_TARGET - NOW;
+              const REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
+              const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
+              const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
+              const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
+              // Thanks Pablo Monteserín (https://pablomonteserin.com/cuenta-regresiva/)
+  
+              // Render
+              SPAN_DAYS.textContent = REMAINING_DAYS;
+              SPAN_HOURS.textContent = REMAINING_HOURS;
+              SPAN_MINUTES.textContent = REMAINING_MINUTES;
+              SPAN_SECONDS.textContent = REMAINING_SECONDS;
+          }
+  
+          //===
+          // INIT
+          //===
+          updateCountdown();
+          // Refresh every second
+          setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+      });
+      </script>
+    
+</body>
+</html>
