@@ -9,6 +9,13 @@
     text-align: center;
 }
 
+.img_principal {
+    width: 100%;
+}
+.header_img {
+    width: 100%;
+}
+
 .meses {
     margin-bottom: 20px;
 }
