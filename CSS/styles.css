@@ -21,7 +21,8 @@
 }
 
 .slider-frame {
-    width: 720px;
+    /* width: 720px; */
+    width: 100%;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
@@ -96,6 +97,7 @@
 }
 .frase2 {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 .frase3 {
     margin-top: 40px;
