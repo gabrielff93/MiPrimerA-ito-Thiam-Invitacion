@@ -10,12 +10,19 @@
 }
 .img_nombre {
     width: 100%;
-    margin-bottom: 20px;
+    
 }
 .img_principal {
     width: 100%;
     margin-bottom: 20px;
+    
 }
+.img_mismeses {
+    width: 100%;
+    font-size: 20px;
+    
+}
+
 .header_img {
     width: 100%;
 }
