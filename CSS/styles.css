@@ -8,7 +8,9 @@
     width: 100%;
     text-align: center;
 }
-
+.img_nombre {
+    width: 100%;
+}
 .img_principal {
     width: 100%;
 }
