@@ -10,16 +10,18 @@
 }
 .img_nombre {
     width: 100%;
+    margin-bottom: 20px;
 }
 .img_principal {
     width: 100%;
+    margin-bottom: 20px;
 }
 .header_img {
     width: 100%;
 }
 
 .meses {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .slider-frame {
