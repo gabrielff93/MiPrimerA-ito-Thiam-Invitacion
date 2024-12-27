@@ -18,9 +18,13 @@
     
 }
 .img_mismeses {
-    width: 100%;
-    font-size: 20px;
-    
+    width: 50%;
+       
+}
+
+.img_faltan {
+    width: 50%;
+       
 }
 
 .header_img {
