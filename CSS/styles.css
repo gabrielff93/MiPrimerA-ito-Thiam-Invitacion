@@ -32,8 +32,8 @@
 .slider-frame ul {
     display: flex;
     padding: 0 ;
-    width: 1000%;
-    animation: slide 22s infinite  ease-in-out;
+    width: 1100%;
+    animation: slide 25s infinite  ease-in-out;
 }
 
 .slider-frame li {
@@ -77,7 +77,8 @@
     95%{margin-left:  -900% ;}
 
     100% {margin-left:-1000%;}
-    105% {margin-left:-1100%;}
+    110% {margin-left:-1100%;}
+    
 }
 
 .titulo__contador {
